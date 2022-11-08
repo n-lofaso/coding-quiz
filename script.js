@@ -95,8 +95,8 @@ function firstQuestion() {
     var currentQuestion = arrayQuestions[currentIndex];
     questionEL.textContent = currentQuestion.question;
     
-    choice0El.textContent = arrayQuestions[currentIndex].choice0;
-    choice1El.textContent = arrayQuestions[currentIndex].choice1;
+    choice0El.textContent = arrayQuestions[0].choice0;
+    choice1El.textContent = arrayQuestions[0].choice1;
     choice2El.textContent = arrayQuestions[currentIndex].choice2;
     choice3El.textContent = arrayQuestions[currentIndex].choice3;
 };
